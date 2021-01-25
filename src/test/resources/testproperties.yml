@@ -1,0 +1,5 @@
+pricesurge:
+  #timeThreshold should be specified in milliseconds
+  timeThreshold: 1000
+  countThreshold: 10
+  priceMultiplierPercent: 10

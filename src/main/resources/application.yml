@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: admin
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+pricesurge:
+  #timeThreshold should be specified in milliseconds
+  timeThreshold: 3600000
+  countThreshold: 10
+  priceMultiplierPercent: 10
